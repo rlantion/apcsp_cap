@@ -1,0 +1,150 @@
+
+body{
+  background-color:grey;
+  cursor: url(https://www.rw-designer.com/cursor-view/249951.png);
+}
+
+nav {
+  background: black;
+  border: 2px solid white;
+  min-height:700px;
+  display:flex;
+  flex-direction:column;
+  width: 250px;
+  height:720px;
+  
+}
+nav h2{
+  text-align: center;
+  color:white;
+   font-family: "Cossette Titre", sans-serif;
+  font-size:39px;
+  margin:20px 10px 5px;
+}
+
+nav h3{
+  text-align: left;
+  color:white;
+  font-family: "Bitcount Single", system-ui;  
+  font-size:15px;
+  margin:20px 10px 5px;
+}
+
+div nav div a{
+ font-family: "Bitcount Single", system-ui;  
+  font-size:40px;
+  color:white;
+  font-size:35px;
+}
+div nav div a:hover{
+  color:red;
+}
+
+.box{
+  background-color:grey;
+  color: white;
+  font-family: "Cossette Titre", sans-serif;
+  font-size: 45px;
+  
+  height:100px;
+  width:200px;
+  margin:20px 20px 20px 25px;
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.column{
+  margin: 10px;
+  height:720px;
+  float: left;
+  padding:10px;
+  background-color:white;
+}
+
+.right {
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 75%;
+  height: 720px;
+}
+
+
+.bigger-box{
+  border:5px solid black;
+  border-radius:15px;
+  background-color:white;
+  color:black;
+  font-family: "Cossette Titre", sans-serif;
+  font-size:25px;
+  
+  height:300px;
+  margin:30px 50px 30px;
+}
+
+.bigger-box p{
+
+  font-size:20px;
+  padding-top:2px;
+  padding-bottom:1px;
+  text-align: center;
+}
+.bigger-box h4{
+  padding-left:3%;
+  padding-top:1px;
+  padding-bottom:1px;
+}
+.main-title{
+  background-color: black;
+  height:50px;
+  color:white;
+  font-family: "Bitcount Single", system-ui;  
+  font-size:30px;
+  text-align:center;
+  padding-top:20px;
+}
+
+
+.sub-box{
+  
+  height:220px;
+  width:50%;
+  margin:20px 20px 20px;
+  float: left;
+  
+  padding:20px;
+  padding-top:2px;
+  background-color:black;
+  border-radius:15px;
+  color:white;
+  font-family: "Cossette Titre", sans-serif;
+  font-size:25px;
+  }
+
+.sub-box h3{
+  font-size:30px;
+}
+.sub-box ul{
+  font-size:25px;
+  list-style-image: url("x.png");
+}
+
+div .sub-box p{
+  margin:5px;
+}
+div iframe{
+  padding-left:15px;
+  padding-top:5px;
+  height:180px;
+  width:450px;
+}
+
+li a{
+  color:red;
+}
+
+
